@@ -1,4 +1,7 @@
+#sorry for the extra lines of importing, i dont like having to capitalize every time so i add them, this allows faster typing for me
 from sty import ef, fg, bg, rs, RgbFg, RgbBg
+from sty import RgbFg as rgbfg
+from sty import RgbBg as rgbBg
 
 print('\n\nDEMO:\n')
 
@@ -29,7 +32,9 @@ names = [
     'li_white',
 ]
 
-rgbs = 
+rgbs = [
+    'RgbFg(0,0,0)'
+]
 
 
 def sgr_fg(names):
