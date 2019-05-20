@@ -1,4 +1,4 @@
-from sty import ef, fg, bg, rs
+from sty import ef, fg, bg, rs, RgbFg, RgbBg
 
 print('\n\nDEMO:\n')
 
@@ -28,6 +28,8 @@ names = [
     'li_cyan',
     'li_white',
 ]
+
+rgbs = 
 
 
 def sgr_fg(names):
